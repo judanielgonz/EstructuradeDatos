@@ -1,0 +1,38 @@
+#include "string.h"
+#include <iostream>
+using namespace std;
+
+
+int main(){
+	
+	cout<<"Que quieres que diga el programa?"<<endl;
+	cout<<"--------------------MENU--------------------"<<endl;
+	cout<<"     1.HOLA MUNDO.                        "<<endl;
+	cout<<"     2. I AM A ERROR.                     "<<endl;
+	cout<<"     3. LA FECHA ACTUAL.                  "<<endl;
+	cout<<"     Elige una opcion: ";
+	
+	int op; cin >> op;
+	
+	switch (op){
+	case 1:
+	{
+		cout<<"HOLA MUNDO"<<endl;
+	}
+	
+	break;
+	
+	case 2:
+	{
+		cout<<"I AM A ERROR"<<endl;
+	}
+	break;
+	
+	case 3:
+	{
+		cout<<"HOY ES: MARTES 9 DE FEBRERO."<<endl;
+	}
+	
+	}
+	return 0;
+}
